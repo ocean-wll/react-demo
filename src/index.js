@@ -5,6 +5,7 @@ import App from './App';
 import Reservation from './Reservation'
 import Calculator from './stateupdate'
 import FilterableProductTable from './product'
+import RefDemo from './ref'
 import reportWebVitals from './reportWebVitals';
 
 const PRODUCTS = [
@@ -18,10 +19,7 @@ const PRODUCTS = [
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Reservation />
-    <Calculator /> */}
-    <FilterableProductTable products={PRODUCTS} />,
-
+    <RefDemo />
   </React.StrictMode>,
   document.getElementById('root')
 );
